@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar-dark container navbar navbar-expand-lg mb-5">
         <div class="container">
-            <a href="#"><img id="logo" src="{{ asset('/assets/img/btlogo.png') }}"
+            <a href="{{ route('trainHomepage') }}"><img id="logo" src="{{ asset('/assets/img/btlogo.png') }}"
                     alt="logo"></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"

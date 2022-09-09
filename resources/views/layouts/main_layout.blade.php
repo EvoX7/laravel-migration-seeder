@@ -12,7 +12,7 @@
 <body>
     @include('includes.header')
     <main>
-
+        @include('includes.trains_table')
     </main>
 
 </body>
